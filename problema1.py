@@ -5,8 +5,7 @@
 
 f = open('promedios.txt', 'r')
 
-y = f.join(",")
-# y = filter(lambda x: x >= 16.5, f)
+y = filter(lambda x: x >= 16.5, f)
 
 print(list(f))
 
